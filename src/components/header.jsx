@@ -25,7 +25,8 @@ const Header = () => {
     <>
       <nav className="py-4 flex justify-between items-center">
         <Link to="/">
-          <img src="/logo.png" className="h-16" alt="Trimrr Logo" />
+          {/* <img src="/logo.png" className="h-16" alt="Trimrr Logo" /> */}
+          <h1 className="text-4xl border-2 rounded-2xl px-4 py-2 border-red-600 hover:bg-red-600" >Home</h1>
         </Link>
         <div className="flex gap-4">
           {!user ? (
